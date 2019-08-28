@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,5 +21,9 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+    }
+
+    public void pressCallback(View view) {
+       Toast.makeText(this, "you clicked me", Toast.LENGTH_SHORT).show();
     }
 }
