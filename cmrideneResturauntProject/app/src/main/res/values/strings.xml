@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">cmrideneResturauntProject</string>
     <string name="google_maps_key">AIzaSyC1KGY0Hb-UMC9y31DGj3rK5oUehs5cNXE</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
 </resources>
